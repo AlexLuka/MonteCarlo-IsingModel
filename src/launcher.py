@@ -51,6 +51,10 @@ class Main(tk.Tk):
         frame.tkraise()
         frame.centering()
         frame.grid()
+
+        if isinstance(frame, ModelPage):
+            frame.draw()
+
         self.logger.info('Show {}'.format(container))
 
 

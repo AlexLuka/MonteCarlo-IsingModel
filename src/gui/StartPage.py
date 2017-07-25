@@ -92,6 +92,7 @@ class StartPage(tk.Frame):
         self.model_.set_inverse_temperature(float(self.entry3.get()))
         self.model_.set_grid_x(int(self.entry1.get()))
         self.model_.set_grid_y(int(self.entry2.get()))
+        self.model_.update_model()
 
         # self.root_.init_model_page(self.parent_, self.model_)
         self.root_.show(ModelPage)

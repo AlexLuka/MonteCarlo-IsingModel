@@ -1,3 +1,4 @@
+import math
 import numpy as np
 from src.settings import Settings
 
@@ -23,7 +24,10 @@ class Model:
         self.settings = Settings()
 
         # inverse temperature: beta=1/T
-        self.beta = 0.
+        self.beta = 0.4
+        self.swapping_energies = {4: 0,
+                                  8: 0}
+        self.update_swapping_energies()
 
     def get_inverse_temperature(self):
         return self.beta
@@ -52,11 +56,17 @@ class Model:
     def get_settings(self):
         return self.settings
 
+    def update_swapping_energies(self):
+        for var in [4, 8]:
+            self.swapping_energies[var] = math.exp(-float(var) * self.beta)
+
     def update_model(self):
         self.mapping = np.random.randint(low=0, high=2, size=(self.grid_x, self.grid_y)) * 2 - 1
 
     # calculate initial energy of the system
     def calculate_energy(self):
+        print self.grid_x, self.grid_y
+
         energy = 0
         for i in range(self.grid_x):
             for j in range(self.grid_y):
@@ -71,12 +81,27 @@ class Model:
                                                   self.mapping[i, j-1])
 
     def run(self):
-        energy_ini = self.calculate_energy()
-        import time
+        energy = self.calculate_energy()
+
+        sw = self.grid_x * self.grid_y
 
         while True:
-            print 'Time: ', time.clock()
-            time.sleep(1)
-            self.update_model()
+            #
+            # One sweep
+            r = np.random.uniform(0, 1, size=sw)
+            i_x = np.random.randint(0, self.grid_x, sw)
+            i_y = np.random.randint(0, self.grid_y, sw)
+            # print r[0:10]
 
-        # separate thread for the simulation
+            # Metropolis dynamics
+            for r_val, ind_x, ind_y in zip(list(r), list(i_x), list(i_y)):
+                de = self.calculate_energy_delta(ind_x, ind_y)
+
+                if de <= 0:
+                    self.mapping[ind_x, ind_y] *= -1
+                    energy += de
+                else:
+                    if r_val < self.swapping_energies[de]:
+                        self.mapping[ind_x, ind_y] *= -1
+                        energy += de
+            print 'Energy: ', energy

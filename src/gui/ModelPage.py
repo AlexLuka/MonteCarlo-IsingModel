@@ -124,7 +124,7 @@ class ModelPage(tk.Frame):
         pass
 
         # threading.Thread(target=self.model_.run).start()
-        self.after(1000, self.check_queue)
+        self.after(1, self.check_queue)
 
     def check_queue(self):
         try:
@@ -134,4 +134,4 @@ class ModelPage(tk.Frame):
         except Queue.Empty:
             self.draw()
             print 'No mesage'
-            self.after(1000, self.check_queue)
+            self.after(1, self.check_queue)
