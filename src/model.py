@@ -70,7 +70,13 @@ class Model:
                                                   self.mapping[i-1, j] +
                                                   self.mapping[i, j-1])
 
-    def simulation_run(self, model_page):
+    def run(self):
         energy_ini = self.calculate_energy()
+        import time
+
+        while True:
+            print 'Time: ', time.clock()
+            time.sleep(1)
+            self.update_model()
 
         # separate thread for the simulation
