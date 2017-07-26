@@ -29,6 +29,9 @@ class Model:
                                   8: 0}
         self.update_swapping_energies()
 
+        #
+        self.is_running_flag = True
+
     def get_inverse_temperature(self):
         return self.beta
 
@@ -80,12 +83,17 @@ class Model:
                                                   self.mapping[i-1, j] +
                                                   self.mapping[i, j-1])
 
-    def run(self):
+    def set_running_flag(self, val):
+        self.is_running_flag = val
+
+    def run(self, queue):
         energy = self.calculate_energy()
 
         sw = self.grid_x * self.grid_y
 
-        while True:
+        self.is_running_flag = True
+
+        while self.is_running_flag:
             #
             # One sweep
             r = np.random.uniform(0, 1, size=sw)
@@ -104,4 +112,17 @@ class Model:
                     if r_val < self.swapping_energies[de]:
                         self.mapping[ind_x, ind_y] *= -1
                         energy += de
-            print 'Energy: ', energy
+            # print 'Energy: ', energy
+        print 'Model was stopped'
+        queue.put('STOP')
+        return
+
+
+# import threading
+#
+# class ModelThread(threading.Thread):
+#     def __init__(self):
+#         threading.Thread.__init__(self)
+#
+#     def run(self):
+#         pass

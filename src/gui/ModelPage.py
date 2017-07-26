@@ -35,6 +35,7 @@ class ModelPage(tk.Frame):
 
         # queue for online update of the model's state
         self.queue = Queue.Queue()
+        self.simulation_thread = None
 
         self.init_controls()
 
@@ -77,12 +78,22 @@ class ModelPage(tk.Frame):
         fr2.grid(row=0, column=1, sticky='news')
 
         # init controls for the subframe 2
-        b1 = tk.Button(fr2,
+        self.b1 = tk.Button(fr2,
                        text='Run simulation',
                        command=self.simulation_run,
                        borderwidth=1,
                        relief=tk.SOLID
-                       ).grid(row=3, column=1)
+                       )
+        self.b1.grid(row=3, column=1)
+
+        self.b2 = tk.Button(fr2,
+                       text='Stop simulation',
+                       command=self.simulation_stop,
+                       borderwidth=1,
+                       relief=tk.SOLID
+                       )
+        self.b2.grid(row=3, column=3)
+        self.b2.config(state='disabled')
 
     # ---> GHOST
     # def draw(self):
@@ -119,19 +130,31 @@ class ModelPage(tk.Frame):
         self.canvas.draw()
 
     def simulation_run(self):
-        threading.Thread(target=self.model_.run).start()
-
-        pass
+        self.simulation_thread = threading.Thread(target=self.model_.run, args=(self.queue,))
+        self.simulation_thread.start()
 
         # threading.Thread(target=self.model_.run).start()
         self.after(1, self.check_queue)
+        self.b1.config(state='disabled')
+        self.b2.config(state='active')
+
+    def simulation_stop(self):
+        self.logger.info('Set RUNNING_FLAG=FALSE to computational thread')
+        self.model_.set_running_flag(False)
+
+        try:
+            self.simulation_thread.join()
+        except RuntimeError as re:
+            self.logger.exception('Error occurred while joining simulation thread')
+
+        self.b2.config(state='disabled')
+        self.b1.config(state='active')
 
     def check_queue(self):
         try:
-            self.queue.get(0)
-
-            print 'Got the message'
+            val = self.queue.get(0)
+            self.logger.info('Message received from the computational thread: [{}].'.format(val))
         except Queue.Empty:
             self.draw()
-            print 'No mesage'
             self.after(1, self.check_queue)
+            self.logger.info('Queue is empty. Continue monitoring the simulation.')
