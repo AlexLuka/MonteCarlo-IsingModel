@@ -10,8 +10,19 @@ def test1():
     plt.show()
 
 
+def test2():
+    import itertools
+
+    list1 = range(0, 10)
+    list2 = range(0, 5)
+
+    for a, b in itertools.product(list1, list2):
+        print a, b
+
+
+
 def main():
-    test1()
+    test2()
 
 
 if __name__ == '__main__':

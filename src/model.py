@@ -1,4 +1,5 @@
 import math
+import itertools
 import numpy as np
 from src.settings import Settings
 
@@ -24,7 +25,7 @@ class Model:
         self.settings = Settings()
 
         # inverse temperature: beta=1/T
-        self.beta = 0.4
+        self.beta = 0.0
         self.swapping_energies = {4: 0,
                                   8: 0}
         self.update_swapping_energies()
@@ -92,37 +93,29 @@ class Model:
         sw = self.grid_x * self.grid_y
 
         self.is_running_flag = True
+        self.update_swapping_energies()
 
         while self.is_running_flag:
             #
             # One sweep
             r = np.random.uniform(0, 1, size=sw)
-            i_x = np.random.randint(0, self.grid_x, sw)
-            i_y = np.random.randint(0, self.grid_y, sw)
+            # i_x = np.random.randint(0, self.grid_x, sw)
+            # i_y = np.random.randint(0, self.grid_y, sw)
             # print r[0:10]
 
             # Metropolis dynamics
-            for r_val, ind_x, ind_y in zip(list(r), list(i_x), list(i_y)):
+            for r_val, (ind_x, ind_y) in zip(list(r), itertools.product(range(0, self.grid_x), range(0, self.grid_y))):
                 de = self.calculate_energy_delta(ind_x, ind_y)
 
                 if de <= 0:
                     self.mapping[ind_x, ind_y] *= -1
                     energy += de
                 else:
+                    # print r_val, self.swapping_energies[de]
                     if r_val < self.swapping_energies[de]:
                         self.mapping[ind_x, ind_y] *= -1
                         energy += de
-            # print 'Energy: ', energy
+                        # print 'Accepted'
         print 'Model was stopped'
         queue.put('STOP')
         return
-
-
-# import threading
-#
-# class ModelThread(threading.Thread):
-#     def __init__(self):
-#         threading.Thread.__init__(self)
-#
-#     def run(self):
-#         pass

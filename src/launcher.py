@@ -54,6 +54,7 @@ class Main(tk.Tk):
 
         if isinstance(frame, ModelPage):
             frame.draw()
+            frame.update_view()
 
         self.logger.info('Show {}'.format(container))
 

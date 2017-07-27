@@ -32,6 +32,9 @@ class ModelPage(tk.Frame):
         #
         self.canvas = None
         self.ax = None
+        self.tf1 = None
+        self.tf2 = None
+        self.tf3 = None
 
         # queue for online update of the model's state
         self.queue = Queue.Queue()
@@ -74,7 +77,7 @@ class ModelPage(tk.Frame):
         self.draw()
 
         # subframe 2
-        fr2 = tk.Frame(self, background='green')
+        fr2 = tk.Frame(self, background='dimgray')
         fr2.grid(row=0, column=1, sticky='news')
 
         # init controls for the subframe 2
@@ -87,13 +90,33 @@ class ModelPage(tk.Frame):
         self.b1.grid(row=3, column=1)
 
         self.b2 = tk.Button(fr2,
-                       text='Stop simulation',
-                       command=self.simulation_stop,
-                       borderwidth=1,
-                       relief=tk.SOLID
-                       )
+                            text='Stop simulation',
+                            command=self.simulation_stop,
+                            borderwidth=1,
+                            relief=tk.SOLID
+                            )
         self.b2.grid(row=3, column=3)
         self.b2.config(state='disabled')
+
+        # Inverse temperature
+        l = tk.Label(fr2, text='Beta (Inverse temperature)', bg='gray', anchor=tk.E)
+        l.grid(row=0, column=0, sticky='news')
+
+        l2 = tk.Label(fr2, text='Nx ', bg='gray', anchor=tk.E)
+        l2.grid(row=1, column=0, sticky='news')
+
+        l3 = tk.Label(fr2, text='Ny ', bg='gray', anchor=tk.E)
+        l3.grid(row=2, column=0, sticky='news')
+
+        self.tf1 = tk.Entry(fr2, justify=tk.CENTER)
+        self.tf1.grid(row=0, column=1, padx=1, pady=1)
+
+        self.tf2 = tk.Entry(fr2, justify=tk.CENTER)
+        self.tf2.grid(row=1, column=1, padx=1, pady=1)
+
+        self.tf3 = tk.Entry(fr2, justify=tk.CENTER)
+        self.tf3.grid(row=2, column=1, padx=1, pady=1)
+        # grid size
 
     # ---> GHOST
     # def draw(self):
@@ -130,10 +153,11 @@ class ModelPage(tk.Frame):
         self.canvas.draw()
 
     def simulation_run(self):
+        # run the simulation in separate thread
+        # communication with the mainloop is done via queue
         self.simulation_thread = threading.Thread(target=self.model_.run, args=(self.queue,))
         self.simulation_thread.start()
 
-        # threading.Thread(target=self.model_.run).start()
         self.after(1, self.check_queue)
         self.b1.config(state='disabled')
         self.b2.config(state='active')
@@ -145,16 +169,30 @@ class ModelPage(tk.Frame):
         try:
             self.simulation_thread.join()
         except RuntimeError as re:
-            self.logger.exception('Error occurred while joining simulation thread')
+            self.logger.exception('Error occurred while joining simulation thread \n {}'.format(re))
 
         self.b2.config(state='disabled')
         self.b1.config(state='active')
 
     def check_queue(self):
         try:
+            # Get the message from the queue
             val = self.queue.get(0)
+            # If message received, print the STOP message to a logger
             self.logger.info('Message received from the computational thread: [{}].'.format(val))
+            # Else, raise an exception that the queue is empty, redraw the system, and keep monitoring the queue
         except Queue.Empty:
             self.draw()
             self.after(1, self.check_queue)
             self.logger.info('Queue is empty. Continue monitoring the simulation.')
+
+    def update_view(self):
+        self.tf1.insert(0, str(self.model_.get_inverse_temperature()))
+        self.tf2.insert(0, str(self.model_.get_grid_x()))
+        self.tf3.insert(0, str(self.model_.get_grid_y()))
+
+    def update_model(self):
+        self.model_.set_inverse_temperature(float(self.tf1.get()))
+        self.model_.set_grid_x(int(self.tf2.get()))
+        self.model_.set_grid_y(int(self.tf3.get()))
+        self.model_.update_model()
