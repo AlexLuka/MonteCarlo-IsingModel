@@ -32,6 +32,8 @@ class ModelPage(tk.Frame):
         #
         self.canvas = None
         self.ax = None
+        self.magnetization_ax = None
+        self.magnetization_canvas = None
         self.tf1 = None
         self.tf2 = None
         self.tf3 = None
@@ -55,39 +57,45 @@ class ModelPage(tk.Frame):
         self.grid(row=0, column=0, sticky='news')
         self.grid_columnconfigure(0, weight=1, uniform='group1')
         self.grid_columnconfigure(1, weight=1, uniform='group1')
+        # self.grid_columnconfigure(2, weight=20, uniform='group1')
         self.grid_rowconfigure(0, weight=1)
 
-        # configure two subframes:
+        self.config(bg='dimgray')
         #
         # subframe 1
         fr1 = tk.Frame(self, background='dimgray')
         fr1.grid(row=0, column=0, sticky='news')
-
-        # plotting canvas
-        # self.canvas = tk.Canvas(fr1, width=self.cw_, height=self.cw_)
-        # self.canvas.pack(fill=None, expand=True)
-        # self.draw()
 
         # matplotlib canvas
         f = Figure(figsize=(5, 5), dpi=100)
         self.ax = f.add_subplot(111)
         self.canvas = FigureCanvasTkAgg(f, master=fr1)
         # self.canvas.show()
-        self.canvas.get_tk_widget().pack(fill=None, expand=True)
-        self.draw()
+        self.canvas.get_tk_widget().pack(fill=tk.BOTH, expand=True)
 
-        # subframe 2
+
+        # sub-frame 2: This Frame will contain the controls (Buttons and Graphs).
+        # padx=(2, 0) specifies the pads one the left and right of the widget.
+        # Left pad = 2 serves as separator between fr1 and fr2.
         fr2 = tk.Frame(self, background='dimgray')
-        fr2.grid(row=0, column=1, sticky='news')
+        fr2.grid(row=0, column=1, sticky='news', padx=(2, 0))
+
+        # fr2.grid_rowconfigure(5)
+        for i in range(3):
+            fr2.grid_columnconfigure(i, weight=1)
+        fr2.grid_rowconfigure(0, weight=0)
+        fr2.grid_rowconfigure(1, weight=0)
+        fr2.grid_rowconfigure(2, weight=0)
+        fr2.grid_rowconfigure(3, weight=10)
 
         # init controls for the subframe 2
         self.b1 = tk.Button(fr2,
-                       text='Run simulation',
-                       command=self.simulation_run,
-                       borderwidth=1,
-                       relief=tk.SOLID
-                       )
-        self.b1.grid(row=3, column=1)
+                            text='Run simulation',
+                            command=self.simulation_run,
+                            borderwidth=1,
+                            relief=tk.SOLID
+                            )
+        self.b1.grid(row=0, column=2)
 
         self.b2 = tk.Button(fr2,
                             text='Stop simulation',
@@ -95,8 +103,11 @@ class ModelPage(tk.Frame):
                             borderwidth=1,
                             relief=tk.SOLID
                             )
-        self.b2.grid(row=3, column=3)
+        self.b2.grid(row=1, column=2)
         self.b2.config(state='disabled')
+
+        #
+        tk.Button(fr2, text='Useless button', borderwidth=1, relief=tk.SOLID).grid(row=2, column=2)
 
         # Inverse temperature
         l = tk.Label(fr2, text='Beta (Inverse temperature)', bg='gray', anchor=tk.E)
@@ -118,30 +129,32 @@ class ModelPage(tk.Frame):
         self.tf3.grid(row=2, column=1, padx=1, pady=1)
         # grid size
 
-    # ---> GHOST
-    # def draw(self):
-    #     """
-    #         Draw the current state of the system.
-    #     """
-    #     # get initial grid
-    #     m = self.model_.get_mapping()
-    #
-    #     grid_h = self.cw_ / self.model_.get_grid_y()
-    #     grid_w = self.cw_ / self.model_.get_grid_x()
-    #
-    #     for i in range(self.model_.get_grid_x()):
-    #         for j in range(self.model_.get_grid_x()):
-    #             self.canvas.create_rectangle(i * grid_w,
-    #                                          j * grid_h,
-    #                                          (i + 1) * grid_w,
-    #                                          (j + 1) * grid_h,
-    #                                          fill=self.model_.get_settings().get_cell_colors()[m[i, j]],
-    #                                          outline=self.model_.get_settings().get_cell_colors()[m[i, j]]
-    #                                          )
-    #
-    #     print m[0, 0]
+        # Notebook (Tabbed Pane)
+        nb = ttk.Notebook(fr2)
+
+        # Tab 1
+        tab1 = tk.Frame(nb)
+
+        f2 = Figure(figsize=(5, 4.05), dpi=100)
+        self.magnetization_ax = f2.add_subplot(111)
+        self.magnetization_canvas = FigureCanvasTkAgg(f2, master=tab1)
+        self.magnetization_canvas.get_tk_widget().pack(fill=tk.Y, expand=True)
+
+        # Tab 2
+        fr4 = tk.Frame(nb)
+
+        nb.add(tab1, text='Magnetization', compound=tk.TOP)
+        nb.add(fr4, text='Two')
+
+        nb.grid(row=3, columnspan=3, sticky='news')
+
+        # Draw
+        self.draw()
 
     def draw(self):
+        """
+            Draw the Ising model's state on the left panel
+        """
         self.ax.clear()
 
         # Display 2D Ising Model
@@ -151,6 +164,11 @@ class ModelPage(tk.Frame):
         self.ax.set_xticks([])
         self.ax.set_yticks([])
         self.canvas.draw()
+
+        # Draw magnetization
+        self.magnetization_ax.clear()
+        self.magnetization_ax.plot(self.model_.get_magnetization())
+        self.magnetization_canvas.draw()
 
     def simulation_run(self):
         # run the simulation in separate thread
@@ -183,7 +201,7 @@ class ModelPage(tk.Frame):
             # Else, raise an exception that the queue is empty, redraw the system, and keep monitoring the queue
         except Queue.Empty:
             self.draw()
-            self.after(1, self.check_queue)
+            self.after(10, self.check_queue)
             self.logger.info('Queue is empty. Continue monitoring the simulation.')
 
     def update_view(self):
