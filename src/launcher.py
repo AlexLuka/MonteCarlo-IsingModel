@@ -8,6 +8,9 @@ from src.gui.ModelPage import ModelPage
 from src.gui.StartPage import StartPage
 
 
+import matplotlib.animation as anim
+
+
 class Main(tk.Tk):
 
     """
@@ -53,7 +56,7 @@ class Main(tk.Tk):
         frame.grid()
 
         if isinstance(frame, ModelPage):
-            frame.draw()
+            # frame.draw()
             frame.update_view()
 
         self.logger.info('Show {}'.format(container))
@@ -74,6 +77,13 @@ def main():
     #
 
     app = Main()
+
+    # Implement graph update with animation module
+    # ani1 = anim.FuncAnimation(app.frames[ModelPage].get_ff(), app.frames[ModelPage].animate, interval=100,
+    #                           fargs=(app.frames[ModelPage], ))
+    # ani2 = anim.FuncAnimation(app.frames[ModelPage].get_f(), app.frames[ModelPage].animate2, interval=100,
+    #                           fargs=(app.frames[ModelPage],))
+
     app.mainloop()
 
 

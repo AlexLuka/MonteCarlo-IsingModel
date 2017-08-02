@@ -1,0 +1,1089 @@
+2017-08-02 13:00:46,706: [root] [INFO] --- 
+
+
+
+
+------>Starting project 2
+2017-08-02 13:00:48,430: [__main__] [INFO] --- Show src.gui.StartPage.StartPage
+2017-08-02 13:00:50,568: [__main__] [INFO] --- Show src.gui.ModelPage.ModelPage
+2017-08-02 13:00:50,578: [src.gui.StartPage] [INFO] --- Button was pressed
+2017-08-02 13:01:00,303: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 13:01:07,512: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 13:01:15,370: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 13:01:19,273: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 13:01:23,542: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 13:01:30,959: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 13:01:37,678: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 13:01:40,033: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 13:01:45,468: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 13:01:45,745: [src.gui.ModelPage] [INFO] --- Set RUNNING_FLAG=FALSE to computational thread
+2017-08-02 13:01:45,817: [src.gui.ModelPage] [INFO] --- Message received from the computational thread: [STOP].
+2017-08-02 13:01:49,478: [root] [INFO] --- 
+
+
+
+
+------>Starting project 2
+2017-08-02 13:01:50,068: [__main__] [INFO] --- Show src.gui.StartPage.StartPage
+2017-08-02 13:01:52,027: [__main__] [INFO] --- Show src.gui.ModelPage.ModelPage
+2017-08-02 13:01:52,034: [src.gui.StartPage] [INFO] --- Button was pressed
+2017-08-02 13:01:58,177: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 13:02:03,352: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 13:02:08,196: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 13:02:15,613: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 13:02:23,575: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 13:02:31,139: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 13:02:38,608: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 13:02:46,133: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 13:02:53,420: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 13:03:00,762: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 13:03:08,746: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 13:03:15,797: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 13:03:22,973: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 13:03:30,037: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 13:03:35,756: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 13:03:40,031: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 13:03:47,255: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 13:03:54,776: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 13:03:55,087: [src.gui.ModelPage] [INFO] --- Set RUNNING_FLAG=FALSE to computational thread
+2017-08-02 13:03:55,119: [src.gui.ModelPage] [INFO] --- Message received from the computational thread: [STOP].
+2017-08-02 13:04:35,787: [root] [INFO] --- 
+
+
+
+
+------>Starting project 2
+2017-08-02 13:04:36,578: [__main__] [INFO] --- Show src.gui.StartPage.StartPage
+2017-08-02 13:04:37,885: [__main__] [INFO] --- Show src.gui.ModelPage.ModelPage
+2017-08-02 13:04:37,892: [src.gui.StartPage] [INFO] --- Button was pressed
+2017-08-02 13:05:08,965: [src.gui.ModelPage] [INFO] --- Set RUNNING_FLAG=FALSE to computational thread
+2017-08-02 13:05:21,402: [root] [INFO] --- 
+
+
+
+
+------>Starting project 2
+2017-08-02 13:05:21,999: [__main__] [INFO] --- Show src.gui.StartPage.StartPage
+2017-08-02 13:05:23,262: [__main__] [INFO] --- Show src.gui.ModelPage.ModelPage
+2017-08-02 13:05:23,270: [src.gui.StartPage] [INFO] --- Button was pressed
+2017-08-02 13:08:26,282: [root] [INFO] --- 
+
+
+
+
+------>Starting project 2
+2017-08-02 13:08:26,855: [__main__] [INFO] --- Show src.gui.StartPage.StartPage
+2017-08-02 13:08:28,361: [__main__] [INFO] --- Show src.gui.ModelPage.ModelPage
+2017-08-02 13:08:28,370: [src.gui.StartPage] [INFO] --- Button was pressed
+2017-08-02 13:10:17,196: [src.gui.ModelPage] [INFO] --- Set RUNNING_FLAG=FALSE to computational thread
+2017-08-02 13:10:21,533: [root] [INFO] --- 
+
+
+
+
+------>Starting project 2
+2017-08-02 13:10:22,068: [__main__] [INFO] --- Show src.gui.StartPage.StartPage
+2017-08-02 13:10:25,054: [__main__] [INFO] --- Show src.gui.ModelPage.ModelPage
+2017-08-02 13:10:25,063: [src.gui.StartPage] [INFO] --- Button was pressed
+2017-08-02 13:13:39,440: [root] [INFO] --- 
+
+
+
+
+------>Starting project 2
+2017-08-02 13:13:40,060: [__main__] [INFO] --- Show src.gui.StartPage.StartPage
+2017-08-02 13:13:41,677: [__main__] [INFO] --- Show src.gui.ModelPage.ModelPage
+2017-08-02 13:13:41,684: [src.gui.StartPage] [INFO] --- Button was pressed
+2017-08-02 13:14:05,165: [root] [INFO] --- 
+
+
+
+
+------>Starting project 2
+2017-08-02 13:14:05,736: [__main__] [INFO] --- Show src.gui.StartPage.StartPage
+2017-08-02 13:14:13,049: [__main__] [INFO] --- Show src.gui.ModelPage.ModelPage
+2017-08-02 13:14:13,056: [src.gui.StartPage] [INFO] --- Button was pressed
+2017-08-02 13:15:16,823: [src.gui.ModelPage] [INFO] --- Set RUNNING_FLAG=FALSE to computational thread
+2017-08-02 13:16:29,644: [root] [INFO] --- 
+
+
+
+
+------>Starting project 2
+2017-08-02 13:16:30,274: [__main__] [INFO] --- Show src.gui.StartPage.StartPage
+2017-08-02 13:16:31,529: [__main__] [INFO] --- Show src.gui.ModelPage.ModelPage
+2017-08-02 13:16:31,536: [src.gui.StartPage] [INFO] --- Button was pressed
+2017-08-02 13:17:04,161: [src.gui.ModelPage] [INFO] --- Set RUNNING_FLAG=FALSE to computational thread
+2017-08-02 13:20:20,786: [root] [INFO] --- 
+
+
+
+
+------>Starting project 2
+2017-08-02 13:20:21,561: [__main__] [INFO] --- Show src.gui.StartPage.StartPage
+2017-08-02 13:20:23,226: [__main__] [INFO] --- Show src.gui.ModelPage.ModelPage
+2017-08-02 13:20:23,233: [src.gui.StartPage] [INFO] --- Button was pressed
+2017-08-02 13:25:47,106: [src.gui.ModelPage] [INFO] --- Set RUNNING_FLAG=FALSE to computational thread
+2017-08-02 13:35:20,237: [root] [INFO] --- 
+
+
+
+
+------>Starting project 2
+2017-08-02 13:35:21,088: [__main__] [INFO] --- Show src.gui.StartPage.StartPage
+2017-08-02 13:35:24,564: [__main__] [INFO] --- Show src.gui.ModelPage.ModelPage
+2017-08-02 13:35:24,572: [src.gui.StartPage] [INFO] --- Button was pressed
+2017-08-02 13:35:46,991: [src.gui.ModelPage] [INFO] --- Set RUNNING_FLAG=FALSE to computational thread
+2017-08-02 13:36:16,762: [root] [INFO] --- 
+
+
+
+
+------>Starting project 2
+2017-08-02 13:36:17,616: [__main__] [INFO] --- Show src.gui.StartPage.StartPage
+2017-08-02 13:36:19,261: [__main__] [INFO] --- Show src.gui.ModelPage.ModelPage
+2017-08-02 13:36:19,269: [src.gui.StartPage] [INFO] --- Button was pressed
+2017-08-02 13:39:06,192: [root] [INFO] --- 
+
+
+
+
+------>Starting project 2
+2017-08-02 13:39:13,624: [root] [INFO] --- 
+
+
+
+
+------>Starting project 2
+2017-08-02 13:39:14,447: [__main__] [INFO] --- Show src.gui.StartPage.StartPage
+2017-08-02 13:39:17,478: [__main__] [INFO] --- Show src.gui.ModelPage.ModelPage
+2017-08-02 13:39:17,487: [src.gui.StartPage] [INFO] --- Button was pressed
+2017-08-02 13:39:54,733: [root] [INFO] --- 
+
+
+
+
+------>Starting project 2
+2017-08-02 13:39:55,252: [__main__] [INFO] --- Show src.gui.StartPage.StartPage
+2017-08-02 13:39:56,497: [__main__] [INFO] --- Show src.gui.ModelPage.ModelPage
+2017-08-02 13:39:56,508: [src.gui.StartPage] [INFO] --- Button was pressed
+2017-08-02 13:40:33,664: [root] [INFO] --- 
+
+
+
+
+------>Starting project 2
+2017-08-02 13:40:34,180: [__main__] [INFO] --- Show src.gui.StartPage.StartPage
+2017-08-02 13:40:36,008: [__main__] [INFO] --- Show src.gui.ModelPage.ModelPage
+2017-08-02 13:40:36,016: [src.gui.StartPage] [INFO] --- Button was pressed
+2017-08-02 13:40:52,447: [root] [INFO] --- 
+
+
+
+
+------>Starting project 2
+2017-08-02 13:40:52,994: [__main__] [INFO] --- Show src.gui.StartPage.StartPage
+2017-08-02 13:40:55,247: [__main__] [INFO] --- Show src.gui.ModelPage.ModelPage
+2017-08-02 13:40:55,257: [src.gui.StartPage] [INFO] --- Button was pressed
+2017-08-02 13:41:06,128: [root] [INFO] --- 
+
+
+
+
+------>Starting project 2
+2017-08-02 13:41:06,651: [__main__] [INFO] --- Show src.gui.StartPage.StartPage
+2017-08-02 13:41:07,655: [__main__] [INFO] --- Show src.gui.ModelPage.ModelPage
+2017-08-02 13:41:07,666: [src.gui.StartPage] [INFO] --- Button was pressed
+2017-08-02 13:41:14,230: [src.gui.ModelPage] [INFO] --- Set RUNNING_FLAG=FALSE to computational thread
+2017-08-02 13:43:15,638: [root] [INFO] --- 
+
+
+
+
+------>Starting project 2
+2017-08-02 13:43:16,136: [__main__] [INFO] --- Show src.gui.StartPage.StartPage
+2017-08-02 13:43:17,308: [__main__] [INFO] --- Show src.gui.ModelPage.ModelPage
+2017-08-02 13:43:17,314: [src.gui.StartPage] [INFO] --- Button was pressed
+2017-08-02 13:44:09,277: [root] [INFO] --- 
+
+
+
+
+------>Starting project 2
+2017-08-02 13:44:09,786: [__main__] [INFO] --- Show src.gui.StartPage.StartPage
+2017-08-02 13:44:10,891: [__main__] [INFO] --- Show src.gui.ModelPage.ModelPage
+2017-08-02 13:44:10,898: [src.gui.StartPage] [INFO] --- Button was pressed
+2017-08-02 13:44:17,953: [root] [INFO] --- 
+
+
+
+
+------>Starting project 2
+2017-08-02 13:44:18,478: [__main__] [INFO] --- Show src.gui.StartPage.StartPage
+2017-08-02 13:44:19,682: [__main__] [INFO] --- Show src.gui.ModelPage.ModelPage
+2017-08-02 13:44:19,689: [src.gui.StartPage] [INFO] --- Button was pressed
+2017-08-02 13:46:35,845: [root] [INFO] --- 
+
+
+
+
+------>Starting project 2
+2017-08-02 13:46:36,430: [__main__] [INFO] --- Show src.gui.StartPage.StartPage
+2017-08-02 13:46:37,790: [__main__] [INFO] --- Show src.gui.ModelPage.ModelPage
+2017-08-02 13:46:37,798: [src.gui.StartPage] [INFO] --- Button was pressed
+2017-08-02 13:46:50,368: [src.gui.ModelPage] [INFO] --- Set RUNNING_FLAG=FALSE to computational thread
+2017-08-02 13:47:40,553: [root] [INFO] --- 
+
+
+
+
+------>Starting project 2
+2017-08-02 13:47:41,090: [__main__] [INFO] --- Show src.gui.StartPage.StartPage
+2017-08-02 13:47:42,258: [__main__] [INFO] --- Show src.gui.ModelPage.ModelPage
+2017-08-02 13:47:42,266: [src.gui.StartPage] [INFO] --- Button was pressed
+2017-08-02 13:50:20,289: [root] [INFO] --- 
+
+
+
+
+------>Starting project 2
+2017-08-02 13:50:20,803: [__main__] [INFO] --- Show src.gui.StartPage.StartPage
+2017-08-02 13:50:22,021: [__main__] [INFO] --- Show src.gui.ModelPage.ModelPage
+2017-08-02 13:50:22,031: [src.gui.StartPage] [INFO] --- Button was pressed
+2017-08-02 13:50:40,494: [src.gui.ModelPage] [INFO] --- Set RUNNING_FLAG=FALSE to computational thread
+2017-08-02 13:51:58,970: [src.gui.ModelPage] [INFO] --- Set RUNNING_FLAG=FALSE to computational thread
+2017-08-02 13:52:06,750: [root] [INFO] --- 
+
+
+
+
+------>Starting project 2
+2017-08-02 13:52:07,268: [__main__] [INFO] --- Show src.gui.StartPage.StartPage
+2017-08-02 13:52:08,366: [__main__] [INFO] --- Show src.gui.ModelPage.ModelPage
+2017-08-02 13:52:08,373: [src.gui.StartPage] [INFO] --- Button was pressed
+2017-08-02 13:53:55,615: [src.gui.ModelPage] [INFO] --- Set RUNNING_FLAG=FALSE to computational thread
+2017-08-02 13:54:19,408: [root] [INFO] --- 
+
+
+
+
+------>Starting project 2
+2017-08-02 13:54:20,103: [__main__] [INFO] --- Show src.gui.StartPage.StartPage
+2017-08-02 13:54:24,283: [__main__] [INFO] --- Show src.gui.ModelPage.ModelPage
+2017-08-02 13:54:24,290: [src.gui.StartPage] [INFO] --- Button was pressed
+2017-08-02 13:59:14,469: [src.gui.ModelPage] [INFO] --- Set RUNNING_FLAG=FALSE to computational thread
+2017-08-02 13:59:32,033: [root] [INFO] --- 
+
+
+
+
+------>Starting project 2
+2017-08-02 13:59:32,544: [__main__] [INFO] --- Show src.gui.StartPage.StartPage
+2017-08-02 13:59:33,527: [__main__] [INFO] --- Show src.gui.ModelPage.ModelPage
+2017-08-02 13:59:33,536: [src.gui.StartPage] [INFO] --- Button was pressed
+2017-08-02 14:02:57,055: [root] [INFO] --- 
+
+
+
+
+------>Starting project 2
+2017-08-02 14:02:57,472: [__main__] [INFO] --- Show src.gui.StartPage.StartPage
+2017-08-02 14:02:59,265: [__main__] [INFO] --- Show src.gui.ModelPage.ModelPage
+2017-08-02 14:02:59,271: [src.gui.StartPage] [INFO] --- Button was pressed
+2017-08-02 14:03:12,964: [root] [INFO] --- 
+
+
+
+
+------>Starting project 2
+2017-08-02 14:03:13,366: [__main__] [INFO] --- Show src.gui.StartPage.StartPage
+2017-08-02 14:03:14,465: [__main__] [INFO] --- Show src.gui.ModelPage.ModelPage
+2017-08-02 14:03:14,472: [src.gui.StartPage] [INFO] --- Button was pressed
+2017-08-02 14:03:30,964: [src.gui.ModelPage] [INFO] --- Set RUNNING_FLAG=FALSE to computational thread
+2017-08-02 14:04:10,537: [root] [INFO] --- 
+
+
+
+
+------>Starting project 2
+2017-08-02 14:04:10,996: [__main__] [INFO] --- Show src.gui.StartPage.StartPage
+2017-08-02 14:04:12,244: [__main__] [INFO] --- Show src.gui.ModelPage.ModelPage
+2017-08-02 14:04:12,252: [src.gui.StartPage] [INFO] --- Button was pressed
+2017-08-02 14:05:18,368: [root] [INFO] --- 
+
+
+
+
+------>Starting project 2
+2017-08-02 14:05:18,806: [__main__] [INFO] --- Show src.gui.StartPage.StartPage
+2017-08-02 14:05:19,884: [__main__] [INFO] --- Show src.gui.ModelPage.ModelPage
+2017-08-02 14:05:19,892: [src.gui.StartPage] [INFO] --- Button was pressed
+2017-08-02 14:06:03,853: [root] [INFO] --- 
+
+
+
+
+------>Starting project 2
+2017-08-02 14:06:04,308: [__main__] [INFO] --- Show src.gui.StartPage.StartPage
+2017-08-02 14:06:05,478: [__main__] [INFO] --- Show src.gui.ModelPage.ModelPage
+2017-08-02 14:06:05,487: [src.gui.StartPage] [INFO] --- Button was pressed
+2017-08-02 14:06:25,030: [root] [INFO] --- 
+
+
+
+
+------>Starting project 2
+2017-08-02 14:06:26,390: [__main__] [INFO] --- Show src.gui.StartPage.StartPage
+2017-08-02 14:06:27,409: [__main__] [INFO] --- Show src.gui.ModelPage.ModelPage
+2017-08-02 14:06:27,419: [src.gui.StartPage] [INFO] --- Button was pressed
+2017-08-02 14:10:23,533: [root] [INFO] --- 
+
+
+
+
+------>Starting project 2
+2017-08-02 14:10:27,787: [__main__] [INFO] --- Show src.gui.StartPage.StartPage
+2017-08-02 14:10:33,644: [root] [INFO] --- 
+
+
+
+
+------>Starting project 2
+2017-08-02 14:10:34,094: [__main__] [INFO] --- Show src.gui.StartPage.StartPage
+2017-08-02 14:10:35,498: [__main__] [INFO] --- Show src.gui.ModelPage.ModelPage
+2017-08-02 14:10:35,507: [src.gui.StartPage] [INFO] --- Button was pressed
+2017-08-02 14:11:18,223: [src.gui.ModelPage] [INFO] --- Set RUNNING_FLAG=FALSE to computational thread
+2017-08-02 14:12:27,183: [root] [INFO] --- 
+
+
+
+
+------>Starting project 2
+2017-08-02 14:12:27,689: [__main__] [INFO] --- Show src.gui.StartPage.StartPage
+2017-08-02 14:12:28,665: [__main__] [INFO] --- Show src.gui.ModelPage.ModelPage
+2017-08-02 14:12:28,676: [src.gui.StartPage] [INFO] --- Button was pressed
+2017-08-02 14:12:47,865: [src.gui.ModelPage] [INFO] --- Set RUNNING_FLAG=FALSE to computational thread
+2017-08-02 14:13:39,326: [root] [INFO] --- 
+
+
+
+
+------>Starting project 2
+2017-08-02 14:13:39,806: [__main__] [INFO] --- Show src.gui.StartPage.StartPage
+2017-08-02 14:13:40,882: [__main__] [INFO] --- Show src.gui.ModelPage.ModelPage
+2017-08-02 14:13:40,891: [src.gui.StartPage] [INFO] --- Button was pressed
+2017-08-02 14:16:22,996: [root] [INFO] --- 
+
+
+
+
+------>Starting project 2
+2017-08-02 14:16:23,443: [__main__] [INFO] --- Show src.gui.StartPage.StartPage
+2017-08-02 14:16:24,488: [__main__] [INFO] --- Show src.gui.ModelPage.ModelPage
+2017-08-02 14:16:24,497: [src.gui.StartPage] [INFO] --- Button was pressed
+2017-08-02 14:16:46,240: [root] [INFO] --- 
+
+
+
+
+------>Starting project 2
+2017-08-02 14:16:46,665: [__main__] [INFO] --- Show src.gui.StartPage.StartPage
+2017-08-02 14:16:47,667: [__main__] [INFO] --- Show src.gui.ModelPage.ModelPage
+2017-08-02 14:16:47,677: [src.gui.StartPage] [INFO] --- Button was pressed
+2017-08-02 14:16:53,090: [root] [INFO] --- 
+
+
+
+
+------>Starting project 2
+2017-08-02 14:16:53,526: [__main__] [INFO] --- Show src.gui.StartPage.StartPage
+2017-08-02 14:16:54,807: [__main__] [INFO] --- Show src.gui.ModelPage.ModelPage
+2017-08-02 14:16:54,815: [src.gui.StartPage] [INFO] --- Button was pressed
+2017-08-02 14:20:05,325: [root] [INFO] --- 
+
+
+
+
+------>Starting project 2
+2017-08-02 14:20:05,782: [__main__] [INFO] --- Show src.gui.StartPage.StartPage
+2017-08-02 14:20:06,647: [__main__] [INFO] --- Show src.gui.ModelPage.ModelPage
+2017-08-02 14:20:06,653: [src.gui.StartPage] [INFO] --- Button was pressed
+2017-08-02 14:20:28,625: [root] [INFO] --- 
+
+
+
+
+------>Starting project 2
+2017-08-02 14:20:29,049: [__main__] [INFO] --- Show src.gui.StartPage.StartPage
+2017-08-02 14:20:30,432: [__main__] [INFO] --- Show src.gui.ModelPage.ModelPage
+2017-08-02 14:20:30,439: [src.gui.StartPage] [INFO] --- Button was pressed
+2017-08-02 14:20:42,607: [root] [INFO] --- 
+
+
+
+
+------>Starting project 2
+2017-08-02 14:20:43,092: [__main__] [INFO] --- Show src.gui.StartPage.StartPage
+2017-08-02 14:20:44,318: [__main__] [INFO] --- Show src.gui.ModelPage.ModelPage
+2017-08-02 14:20:44,325: [src.gui.StartPage] [INFO] --- Button was pressed
+2017-08-02 14:21:04,320: [root] [INFO] --- 
+
+
+
+
+------>Starting project 2
+2017-08-02 14:21:04,735: [__main__] [INFO] --- Show src.gui.StartPage.StartPage
+2017-08-02 14:21:05,877: [__main__] [INFO] --- Show src.gui.ModelPage.ModelPage
+2017-08-02 14:21:05,886: [src.gui.StartPage] [INFO] --- Button was pressed
+2017-08-02 14:21:18,527: [src.gui.ModelPage] [INFO] --- Set RUNNING_FLAG=FALSE to computational thread
+2017-08-02 14:22:04,587: [root] [INFO] --- 
+
+
+
+
+------>Starting project 2
+2017-08-02 14:22:05,004: [__main__] [INFO] --- Show src.gui.StartPage.StartPage
+2017-08-02 14:22:06,310: [__main__] [INFO] --- Show src.gui.ModelPage.ModelPage
+2017-08-02 14:22:06,317: [src.gui.StartPage] [INFO] --- Button was pressed
+2017-08-02 14:22:49,609: [root] [INFO] --- 
+
+
+
+
+------>Starting project 2
+2017-08-02 14:22:50,017: [__main__] [INFO] --- Show src.gui.StartPage.StartPage
+2017-08-02 14:22:51,218: [__main__] [INFO] --- Show src.gui.ModelPage.ModelPage
+2017-08-02 14:22:51,226: [src.gui.StartPage] [INFO] --- Button was pressed
+2017-08-02 14:23:24,671: [root] [INFO] --- 
+
+
+
+
+------>Starting project 2
+2017-08-02 14:23:25,084: [__main__] [INFO] --- Show src.gui.StartPage.StartPage
+2017-08-02 14:23:26,187: [__main__] [INFO] --- Show src.gui.ModelPage.ModelPage
+2017-08-02 14:23:26,194: [src.gui.StartPage] [INFO] --- Button was pressed
+2017-08-02 14:23:35,791: [src.gui.ModelPage] [INFO] --- Set RUNNING_FLAG=FALSE to computational thread
+2017-08-02 14:24:41,340: [root] [INFO] --- 
+
+
+
+
+------>Starting project 2
+2017-08-02 14:24:41,756: [__main__] [INFO] --- Show src.gui.StartPage.StartPage
+2017-08-02 14:24:43,263: [__main__] [INFO] --- Show src.gui.ModelPage.ModelPage
+2017-08-02 14:24:43,270: [src.gui.StartPage] [INFO] --- Button was pressed
+2017-08-02 14:25:47,794: [root] [INFO] --- 
+
+
+
+
+------>Starting project 2
+2017-08-02 14:25:48,246: [__main__] [INFO] --- Show src.gui.StartPage.StartPage
+2017-08-02 14:25:49,413: [__main__] [INFO] --- Show src.gui.ModelPage.ModelPage
+2017-08-02 14:25:49,424: [src.gui.StartPage] [INFO] --- Button was pressed
+2017-08-02 14:27:32,475: [root] [INFO] --- 
+
+
+
+
+------>Starting project 2
+2017-08-02 14:27:32,921: [__main__] [INFO] --- Show src.gui.StartPage.StartPage
+2017-08-02 14:27:34,024: [__main__] [INFO] --- Show src.gui.ModelPage.ModelPage
+2017-08-02 14:27:34,032: [src.gui.StartPage] [INFO] --- Button was pressed
+2017-08-02 14:27:46,578: [src.gui.ModelPage] [INFO] --- Set RUNNING_FLAG=FALSE to computational thread
+2017-08-02 14:33:22,057: [root] [INFO] --- 
+
+
+
+
+------>Starting project 2
+2017-08-02 14:33:22,497: [__main__] [INFO] --- Show src.gui.StartPage.StartPage
+2017-08-02 14:33:23,476: [__main__] [INFO] --- Show src.gui.ModelPage.ModelPage
+2017-08-02 14:33:23,484: [src.gui.StartPage] [INFO] --- Button was pressed
+2017-08-02 14:33:40,901: [src.gui.ModelPage] [INFO] --- Set RUNNING_FLAG=FALSE to computational thread
+2017-08-02 14:36:13,468: [root] [INFO] --- 
+
+
+
+
+------>Starting project 2
+2017-08-02 14:36:13,869: [__main__] [INFO] --- Show src.gui.StartPage.StartPage
+2017-08-02 14:36:14,991: [__main__] [INFO] --- Show src.gui.ModelPage.ModelPage
+2017-08-02 14:36:14,998: [src.gui.StartPage] [INFO] --- Button was pressed
+2017-08-02 14:36:27,938: [src.gui.ModelPage] [INFO] --- Set RUNNING_FLAG=FALSE to computational thread
+2017-08-02 14:36:35,492: [root] [INFO] --- 
+
+
+
+
+------>Starting project 2
+2017-08-02 14:36:35,892: [__main__] [INFO] --- Show src.gui.StartPage.StartPage
+2017-08-02 14:36:36,995: [__main__] [INFO] --- Show src.gui.ModelPage.ModelPage
+2017-08-02 14:36:37,004: [src.gui.StartPage] [INFO] --- Button was pressed
+2017-08-02 14:37:31,042: [src.gui.ModelPage] [INFO] --- Set RUNNING_FLAG=FALSE to computational thread
+2017-08-02 14:38:01,186: [root] [INFO] --- 
+
+
+
+
+------>Starting project 2
+2017-08-02 14:38:01,367: [__main__] [INFO] --- Show src.gui.StartPage.StartPage
+2017-08-02 14:38:02,507: [__main__] [INFO] --- Show src.gui.ModelPage.ModelPage
+2017-08-02 14:38:02,514: [src.gui.StartPage] [INFO] --- Button was pressed
+2017-08-02 14:38:27,315: [src.gui.ModelPage] [INFO] --- Set RUNNING_FLAG=FALSE to computational thread
+2017-08-02 14:38:34,439: [root] [INFO] --- 
+
+
+
+
+------>Starting project 2
+2017-08-02 14:38:34,613: [__main__] [INFO] --- Show src.gui.StartPage.StartPage
+2017-08-02 14:38:39,141: [__main__] [INFO] --- Show src.gui.ModelPage.ModelPage
+2017-08-02 14:38:39,150: [src.gui.StartPage] [INFO] --- Button was pressed
+2017-08-02 14:38:47,829: [src.gui.ModelPage] [INFO] --- Set RUNNING_FLAG=FALSE to computational thread
+2017-08-02 14:41:27,983: [root] [INFO] --- 
+
+
+
+
+------>Starting project 2
+2017-08-02 14:41:28,205: [__main__] [INFO] --- Show src.gui.StartPage.StartPage
+2017-08-02 14:41:31,967: [__main__] [INFO] --- Show src.gui.ModelPage.ModelPage
+2017-08-02 14:41:31,979: [src.gui.StartPage] [INFO] --- Button was pressed
+2017-08-02 14:42:10,559: [src.gui.ModelPage] [INFO] --- Set RUNNING_FLAG=FALSE to computational thread
+2017-08-02 14:45:19,034: [root] [INFO] --- 
+
+
+
+
+------>Starting project 2
+2017-08-02 14:45:19,268: [__main__] [INFO] --- Show src.gui.StartPage.StartPage
+2017-08-02 14:45:21,736: [__main__] [INFO] --- Show src.gui.ModelPage.ModelPage
+2017-08-02 14:45:21,750: [src.gui.StartPage] [INFO] --- Button was pressed
+2017-08-02 14:47:33,003: [root] [INFO] --- 
+
+
+
+
+------>Starting project 2
+2017-08-02 14:47:33,212: [__main__] [INFO] --- Show src.gui.StartPage.StartPage
+2017-08-02 14:47:34,295: [__main__] [INFO] --- Show src.gui.ModelPage.ModelPage
+2017-08-02 14:47:34,308: [src.gui.StartPage] [INFO] --- Button was pressed
+2017-08-02 14:47:39,953: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 14:47:44,206: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 14:47:48,752: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 14:47:48,823: [src.gui.ModelPage] [INFO] --- Set RUNNING_FLAG=FALSE to computational thread
+2017-08-02 14:47:48,889: [src.gui.ModelPage] [INFO] --- Message received from the computational thread: [STOP].
+2017-08-02 14:48:14,512: [root] [INFO] --- 
+
+
+
+
+------>Starting project 2
+2017-08-02 14:48:14,687: [__main__] [INFO] --- Show src.gui.StartPage.StartPage
+2017-08-02 14:48:20,646: [__main__] [INFO] --- Show src.gui.ModelPage.ModelPage
+2017-08-02 14:48:20,950: [src.gui.StartPage] [INFO] --- Button was pressed
+2017-08-02 14:48:23,838: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 14:48:25,432: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 14:48:26,911: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 14:48:28,302: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 14:48:29,786: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 14:48:31,261: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 14:48:31,287: [src.gui.ModelPage] [INFO] --- Set RUNNING_FLAG=FALSE to computational thread
+2017-08-02 14:48:31,292: [src.gui.ModelPage] [INFO] --- Message received from the computational thread: [STOP].
+2017-08-02 14:54:34,310: [root] [INFO] --- 
+
+
+
+
+------>Starting project 2
+2017-08-02 14:54:34,983: [__main__] [INFO] --- Show src.gui.StartPage.StartPage
+2017-08-02 14:54:35,995: [__main__] [INFO] --- Show src.gui.ModelPage.ModelPage
+2017-08-02 14:54:36,005: [src.gui.StartPage] [INFO] --- Button was pressed
+2017-08-02 14:54:40,444: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 14:54:41,677: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 14:54:42,844: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 14:54:43,998: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 14:54:45,951: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 14:54:47,187: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 14:54:48,622: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 14:54:48,653: [src.gui.ModelPage] [INFO] --- Set RUNNING_FLAG=FALSE to computational thread
+2017-08-02 14:54:48,659: [src.gui.ModelPage] [INFO] --- Message received from the computational thread: [STOP].
+2017-08-02 14:57:05,650: [root] [INFO] --- 
+
+
+
+
+------>Starting project 2
+2017-08-02 14:57:06,297: [__main__] [INFO] --- Show src.gui.StartPage.StartPage
+2017-08-02 14:57:07,321: [__main__] [INFO] --- Show src.gui.ModelPage.ModelPage
+2017-08-02 14:57:07,334: [src.gui.StartPage] [INFO] --- Button was pressed
+2017-08-02 14:57:12,954: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 14:57:14,631: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 14:57:16,147: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 14:57:17,696: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 14:57:19,171: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 14:57:20,549: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 14:57:22,078: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 14:57:23,727: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 14:57:25,402: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 14:57:27,086: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 14:58:24,396: [root] [INFO] --- 
+
+
+
+
+------>Starting project 2
+2017-08-02 14:58:25,242: [__main__] [INFO] --- Show src.gui.StartPage.StartPage
+2017-08-02 14:58:26,325: [__main__] [INFO] --- Show src.gui.ModelPage.ModelPage
+2017-08-02 14:58:26,336: [src.gui.StartPage] [INFO] --- Button was pressed
+2017-08-02 14:58:29,870: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 14:58:32,187: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 14:58:35,400: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 14:58:37,753: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 14:58:40,352: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 14:58:43,013: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 14:58:45,407: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 14:58:47,935: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 14:58:50,501: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 14:58:53,066: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 14:58:55,859: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 14:58:55,878: [src.gui.ModelPage] [INFO] --- Set RUNNING_FLAG=FALSE to computational thread
+2017-08-02 14:58:55,883: [src.gui.ModelPage] [INFO] --- Message received from the computational thread: [STOP].
+2017-08-02 15:02:41,541: [root] [INFO] --- 
+
+
+
+
+------>Starting project 2
+2017-08-02 15:02:42,376: [__main__] [INFO] --- Show src.gui.StartPage.StartPage
+2017-08-02 15:02:44,125: [__main__] [INFO] --- Show src.gui.ModelPage.ModelPage
+2017-08-02 15:02:44,139: [src.gui.StartPage] [INFO] --- Button was pressed
+2017-08-02 15:02:47,933: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:02:49,622: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:02:52,303: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:02:54,652: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:02:56,774: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:02:59,284: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:03:01,805: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:03:04,161: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:03:06,498: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:03:09,118: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:03:11,370: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:03:13,947: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:03:16,825: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:03:19,477: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:03:21,932: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:03:24,474: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:03:27,038: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:03:29,670: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:03:32,125: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:03:34,674: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:03:37,148: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:03:39,881: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:03:42,618: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:03:45,304: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:03:47,925: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:03:50,672: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:03:53,329: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:03:55,717: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:03:58,244: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:04:00,656: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:04:03,138: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:04:05,465: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:04:07,364: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:04:09,824: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:04:09,872: [src.gui.ModelPage] [INFO] --- Set RUNNING_FLAG=FALSE to computational thread
+2017-08-02 15:04:09,877: [src.gui.ModelPage] [INFO] --- Message received from the computational thread: [STOP].
+2017-08-02 15:05:02,935: [root] [INFO] --- 
+
+
+
+
+------>Starting project 2
+2017-08-02 15:05:03,744: [__main__] [INFO] --- Show src.gui.StartPage.StartPage
+2017-08-02 15:05:04,983: [__main__] [INFO] --- Show src.gui.ModelPage.ModelPage
+2017-08-02 15:05:04,995: [src.gui.StartPage] [INFO] --- Button was pressed
+2017-08-02 15:05:09,033: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:05:11,691: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:05:14,348: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:05:16,549: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:05:18,925: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:05:21,481: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:05:24,097: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:05:26,620: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:05:29,139: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:05:31,810: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:05:34,462: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:05:37,133: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:05:39,609: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:05:42,044: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:05:44,505: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:05:46,962: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:05:49,307: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:05:51,788: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:05:54,428: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:05:56,881: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:05:59,693: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:06:02,492: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:06:02,564: [src.gui.ModelPage] [INFO] --- Set RUNNING_FLAG=FALSE to computational thread
+2017-08-02 15:06:02,567: [src.gui.ModelPage] [INFO] --- Message received from the computational thread: [STOP].
+2017-08-02 15:09:29,434: [root] [INFO] --- 
+
+
+
+
+------>Starting project 2
+2017-08-02 15:09:30,235: [__main__] [INFO] --- Show src.gui.StartPage.StartPage
+2017-08-02 15:09:36,658: [__main__] [INFO] --- Show src.gui.ModelPage.ModelPage
+2017-08-02 15:09:36,674: [src.gui.StartPage] [INFO] --- Button was pressed
+2017-08-02 15:09:40,288: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:09:43,098: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:09:45,199: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:09:47,473: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:09:49,553: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:09:51,888: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:09:53,906: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:09:56,008: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:09:58,190: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:10:00,239: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:10:02,292: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:10:04,445: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:10:06,829: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:10:08,885: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:10:11,067: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:10:13,225: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:10:15,339: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:10:17,631: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:10:19,941: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:10:19,957: [src.gui.ModelPage] [INFO] --- Set RUNNING_FLAG=FALSE to computational thread
+2017-08-02 15:10:19,962: [src.gui.ModelPage] [INFO] --- Message received from the computational thread: [STOP].
+2017-08-02 15:10:23,522: [root] [INFO] --- 
+
+
+
+
+------>Starting project 2
+2017-08-02 15:10:24,318: [__main__] [INFO] --- Show src.gui.StartPage.StartPage
+2017-08-02 15:10:30,735: [__main__] [INFO] --- Show src.gui.ModelPage.ModelPage
+2017-08-02 15:10:30,752: [src.gui.StartPage] [INFO] --- Button was pressed
+2017-08-02 15:10:34,108: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:10:36,296: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:10:38,026: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:10:39,756: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:10:41,623: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:10:43,394: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:10:45,088: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:10:46,835: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:10:48,682: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:10:50,581: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:10:52,519: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:10:54,514: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:10:56,226: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:10:58,057: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:10:59,885: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:11:01,824: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:11:03,679: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:11:05,703: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:11:07,647: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:11:09,587: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:11:11,632: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:11:13,613: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:11:15,535: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:11:17,573: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:11:19,329: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:11:20,978: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:11:22,705: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:11:24,388: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:11:26,100: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:11:27,827: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:11:29,460: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:11:31,186: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:11:32,765: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:11:34,496: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:11:36,239: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:11:38,016: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:11:39,803: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:11:41,580: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:11:43,409: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:11:45,155: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:11:46,878: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:11:48,673: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:11:50,544: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:11:52,225: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:11:54,070: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:11:55,785: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:11:57,571: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:11:59,457: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:12:01,280: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:12:01,313: [src.gui.ModelPage] [INFO] --- Set RUNNING_FLAG=FALSE to computational thread
+2017-08-02 15:12:01,317: [src.gui.ModelPage] [INFO] --- Message received from the computational thread: [STOP].
+2017-08-02 15:14:43,208: [root] [INFO] --- 
+
+
+
+
+------>Starting project 2
+2017-08-02 15:14:44,051: [__main__] [INFO] --- Show src.gui.StartPage.StartPage
+2017-08-02 15:14:46,909: [__main__] [INFO] --- Show src.gui.ModelPage.ModelPage
+2017-08-02 15:14:46,923: [src.gui.StartPage] [INFO] --- Button was pressed
+2017-08-02 15:14:53,479: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:14:54,330: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:14:55,201: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:14:56,078: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:14:56,765: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:14:57,529: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:14:58,391: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:14:59,231: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:15:00,097: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:15:00,980: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:15:01,853: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:15:02,701: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:15:03,577: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:15:04,376: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:15:05,196: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:15:05,963: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:15:06,812: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:15:07,724: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:15:08,554: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:15:09,510: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:15:10,455: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:15:11,254: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:15:12,008: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:15:12,889: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:15:13,913: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:15:14,816: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:15:15,727: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:15:16,662: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:15:17,558: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:15:18,532: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:15:19,387: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:15:20,121: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:15:20,995: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:15:21,834: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:15:22,759: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:15:23,628: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:15:24,484: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:15:25,362: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:15:26,312: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:15:27,297: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:15:28,111: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:15:29,051: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:15:29,976: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:15:30,741: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:15:31,484: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:15:32,384: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:15:33,294: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:15:34,228: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:15:35,100: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:15:35,973: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:15:36,897: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:15:37,774: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:15:38,628: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:15:39,432: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:15:40,318: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:15:41,148: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:15:42,002: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:15:42,913: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:15:43,769: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:15:44,648: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:15:45,588: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:15:46,536: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:15:47,442: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:15:48,384: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:15:49,385: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:15:50,385: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:15:51,410: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:15:52,385: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:15:53,322: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:15:54,297: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:15:55,242: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:15:56,201: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:15:57,228: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:15:58,044: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:15:59,022: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:15:59,932: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:16:00,942: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:16:01,943: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:16:03,001: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:16:04,092: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:16:05,041: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:16:06,058: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:16:07,059: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:16:07,932: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:16:08,778: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:16:09,696: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:16:10,543: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:16:11,291: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:16:12,233: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:16:13,161: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:16:13,884: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:16:14,707: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:16:15,596: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:16:16,521: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:16:17,327: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:16:18,094: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:16:18,983: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:16:19,995: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:16:20,936: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:16:21,814: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:16:22,652: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:16:23,532: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:16:24,402: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:16:24,420: [src.gui.ModelPage] [INFO] --- Set RUNNING_FLAG=FALSE to computational thread
+2017-08-02 15:16:24,422: [src.gui.ModelPage] [INFO] --- Message received from the computational thread: [STOP].
+2017-08-02 15:18:41,696: [root] [INFO] --- 
+
+
+
+
+------>Starting project 2
+2017-08-02 15:18:42,500: [__main__] [INFO] --- Show src.gui.StartPage.StartPage
+2017-08-02 15:18:47,872: [__main__] [INFO] --- Show src.gui.ModelPage.ModelPage
+2017-08-02 15:18:47,887: [src.gui.StartPage] [INFO] --- Button was pressed
+2017-08-02 15:18:50,246: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:18:51,405: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:18:52,415: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:18:53,453: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:18:54,244: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:18:55,122: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:18:56,206: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:18:57,308: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:18:58,339: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:18:59,431: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:19:00,315: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:19:01,262: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:19:02,254: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:19:03,230: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:19:04,365: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:19:05,616: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:19:06,625: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:19:07,649: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:19:08,726: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:19:09,672: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:19:10,708: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:19:11,535: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:19:12,507: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:19:13,464: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:19:14,403: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:19:15,314: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:19:16,199: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:19:17,115: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:19:17,974: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:19:19,034: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:19:19,049: [src.gui.ModelPage] [INFO] --- Set RUNNING_FLAG=FALSE to computational thread
+2017-08-02 15:19:19,072: [src.gui.ModelPage] [INFO] --- Message received from the computational thread: [STOP].
+2017-08-02 15:19:31,925: [root] [INFO] --- 
+
+
+
+
+------>Starting project 2
+2017-08-02 15:19:32,715: [__main__] [INFO] --- Show src.gui.StartPage.StartPage
+2017-08-02 15:19:37,026: [__main__] [INFO] --- Show src.gui.ModelPage.ModelPage
+2017-08-02 15:19:37,042: [src.gui.StartPage] [INFO] --- Button was pressed
+2017-08-02 15:19:40,274: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:19:41,539: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:19:42,832: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:19:44,323: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:19:45,743: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:19:45,777: [src.gui.ModelPage] [INFO] --- Set RUNNING_FLAG=FALSE to computational thread
+2017-08-02 15:19:45,781: [src.gui.ModelPage] [INFO] --- Message received from the computational thread: [STOP].
+2017-08-02 15:19:51,948: [root] [INFO] --- 
+
+
+
+
+------>Starting project 2
+2017-08-02 15:19:52,781: [__main__] [INFO] --- Show src.gui.StartPage.StartPage
+2017-08-02 15:20:01,277: [__main__] [INFO] --- Show src.gui.ModelPage.ModelPage
+2017-08-02 15:20:01,292: [src.gui.StartPage] [INFO] --- Button was pressed
+2017-08-02 15:20:04,397: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:20:05,723: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:20:06,935: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:20:08,184: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:20:09,740: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:20:10,920: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:20:12,174: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:20:13,558: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:20:14,916: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:20:16,147: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:20:17,429: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:20:18,746: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:20:20,043: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:20:21,296: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:20:22,579: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:20:23,764: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:20:25,214: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:20:26,655: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:20:28,031: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:20:29,552: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:20:30,919: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:20:32,171: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:20:33,381: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:20:34,720: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:20:36,053: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:20:37,402: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:20:38,619: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:20:39,898: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:20:41,243: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:20:42,578: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:20:44,061: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:20:45,461: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:20:46,774: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:20:48,133: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:20:49,694: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:20:51,165: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:20:52,543: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:20:53,841: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:20:55,218: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:20:56,545: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:20:57,967: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:20:59,303: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:21:00,787: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:21:02,219: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:21:03,419: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:21:04,794: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:21:06,084: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:21:07,469: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:21:08,868: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:21:10,302: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:21:11,690: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:21:13,040: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:21:14,277: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:21:15,640: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:21:16,979: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:21:18,363: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:21:19,579: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:21:20,968: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:21:22,401: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:21:23,793: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:21:25,051: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:21:26,499: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:21:27,970: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:21:29,408: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:21:30,860: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:21:32,336: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:21:33,840: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:21:35,126: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:21:36,676: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:21:38,124: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:21:39,500: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:21:41,092: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:21:42,720: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:21:43,938: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:21:45,551: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:21:47,030: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:21:48,540: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:21:49,863: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:21:51,385: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:21:52,847: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:21:54,467: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:21:56,113: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:21:57,540: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:21:59,233: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:22:00,797: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:22:02,348: [src.gui.ModelPage] [INFO] --- Queue is empty. Continue monitoring the simulation.
+2017-08-02 15:22:02,390: [src.gui.ModelPage] [INFO] --- Set RUNNING_FLAG=FALSE to computational thread
+2017-08-02 15:22:02,394: [src.gui.ModelPage] [INFO] --- Message received from the computational thread: [STOP].

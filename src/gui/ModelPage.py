@@ -11,7 +11,6 @@ from matplotlib import style
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 from matplotlib.figure import Figure
 
-
 style.use('ggplot')
 
 
@@ -57,7 +56,6 @@ class ModelPage(tk.Frame):
         self.grid(row=0, column=0, sticky='news')
         self.grid_columnconfigure(0, weight=1, uniform='group1')
         self.grid_columnconfigure(1, weight=1, uniform='group1')
-        # self.grid_columnconfigure(2, weight=20, uniform='group1')
         self.grid_rowconfigure(0, weight=1)
 
         self.config(bg='dimgray')
@@ -72,7 +70,6 @@ class ModelPage(tk.Frame):
         self.canvas = FigureCanvasTkAgg(f, master=fr1)
         # self.canvas.show()
         self.canvas.get_tk_widget().pack(fill=tk.BOTH, expand=True)
-
 
         # sub-frame 2: This Frame will contain the controls (Buttons and Graphs).
         # padx=(2, 0) specifies the pads one the left and right of the widget.
@@ -141,10 +138,23 @@ class ModelPage(tk.Frame):
         self.magnetization_canvas.get_tk_widget().pack(fill=tk.Y, expand=True)
 
         # Tab 2
-        fr4 = tk.Frame(nb)
+        tab2 = tk.Frame(nb)
 
-        nb.add(tab1, text='Magnetization', compound=tk.TOP)
-        nb.add(fr4, text='Two')
+        f3 = Figure(figsize=(5, 4.05), dpi=100)
+        self.energy_ax = f3.add_subplot(111)
+        self.energy_canvas = FigureCanvasTkAgg(f3, master=tab2)
+        self.energy_canvas.get_tk_widget().pack(fill=tk.Y, expand=True)
+
+        # Tab 3
+        tab3 = tk.Frame(nb)
+
+        # Tab 4
+        tab4 = tk.Frame(nb)
+
+        nb.add(tab1, text=r'Magnetization', compound=tk.TOP)
+        nb.add(tab2, text=r'Energy')
+        nb.add(tab3, text=r'Specific heat')
+        nb.add(tab4, text=r'Susceptibility')
 
         nb.grid(row=3, columnspan=3, sticky='news')
 
@@ -169,6 +179,11 @@ class ModelPage(tk.Frame):
         self.magnetization_ax.clear()
         self.magnetization_ax.plot(self.model_.get_magnetization())
         self.magnetization_canvas.draw()
+
+        # Draw magnetization squared
+        self.energy_ax.clear()
+        self.energy_ax.plot(self.model_.get_energy())
+        self.energy_canvas.draw()
 
     def simulation_run(self):
         # run the simulation in separate thread
@@ -201,7 +216,7 @@ class ModelPage(tk.Frame):
             # Else, raise an exception that the queue is empty, redraw the system, and keep monitoring the queue
         except Queue.Empty:
             self.draw()
-            self.after(10, self.check_queue)
+            self.after(20, self.check_queue)
             self.logger.info('Queue is empty. Continue monitoring the simulation.')
 
     def update_view(self):

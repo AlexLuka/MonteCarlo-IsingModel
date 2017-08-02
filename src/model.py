@@ -15,8 +15,8 @@ class Model:
 
     def __init__(self):
         # default size of the system
-        self.grid_x = 100
-        self.grid_y = 100
+        self.grid_x = 20
+        self.grid_y = 20
 
         # initial state. later add options: INITIAL_RANDOM, INITIAL_ALL_ONES, INITIAL_ALL_ZEROS
         self.mapping = np.random.randint(low=0, high=2, size=(self.grid_x, self.grid_y))*2 - 1
@@ -34,7 +34,8 @@ class Model:
         self.is_running_flag = True
 
         #
-        self.magnetization = []
+        self.magnetization = []         # m
+        self.energy = []                # E
 
     def get_inverse_temperature(self):
         return self.beta
@@ -66,6 +67,9 @@ class Model:
     def get_magnetization(self):
         return self.magnetization
 
+    def get_energy(self):
+        return self.energy
+
     def update_swapping_energies(self):
         for var in [4, 8]:
             self.swapping_energies[var] = math.exp(-float(var) * self.beta)
@@ -75,7 +79,7 @@ class Model:
 
     # calculate initial energy of the system
     def calculate_energy(self):
-        print self.grid_x, self.grid_y
+        # print self.grid_x, self.grid_y
 
         energy = 0
         for i in range(self.grid_x):
@@ -97,14 +101,19 @@ class Model:
         self.is_running_flag = val
 
     def run(self, queue):
-        energy = self.calculate_energy()
+        # calculate initial state
+        e = self.calculate_energy()
         m = self.calculate_magnetization()
 
         sw = self.grid_x * self.grid_y
 
+        #
         self.is_running_flag = True
         self.update_swapping_energies()
+
+        #
         self.magnetization.append(m)
+        self.energy.append(e)
 
         while self.is_running_flag:
             #
@@ -117,16 +126,17 @@ class Model:
 
                 if de <= 0:
                     self.mapping[ind_x, ind_y] *= -1
-                    energy += de
+                    e += de
                     m += 2*self.mapping[ind_x, ind_y] / float(sw)
                 else:
                     # print r_val, self.swapping_energies[de]
                     if r_val < self.swapping_energies[de]:
                         self.mapping[ind_x, ind_y] *= -1
-                        energy += de
+                        e += de
                         m += 2 * self.mapping[ind_x, ind_y] / float(sw)
                         # print 'Accepted'
             self.magnetization.append(m)
+            self.energy.append(e)
         print 'Model was stopped'
         queue.put('STOP')
         return
